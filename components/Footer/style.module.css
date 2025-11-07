@@ -31,7 +31,12 @@
 .footerimg {
     width: 1.1875rem;
     height: 1.1875rem;
-    cursor: grab;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.footerimg:hover {
+    scale: calc(1.1);
 }
 
 .FooterText{

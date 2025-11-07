@@ -8,8 +8,8 @@
     margin-left: 10%;
 }
 
-.headerImg{
-    width: 4.4375rem;
+.headerTitle{
+    font-size: 2rem;
 }
 
 .headerNav {
@@ -23,12 +23,20 @@
     font-size: var(--font-size-label);
     text-decoration: none;
     font-weight: 600;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.headerAchor:hover{
+    color: var(--gray-450);
+    scale: calc(1.1);
 }
 
 .headerButton{
+    transition: 1s;
     background-color: var(--brand-color-1);
     font-size: var(--font-size-label);
-    cursor: grab;
+    cursor: pointer;
     width: 7.1875rem;
     height: 2.5rem;
     border-radius: var(--button-radius);
@@ -37,6 +45,7 @@
 
 .headerButton:hover{
     background-color: var(--brand-color-2);
+    scale: calc(1.1);
 }
 
 @media (min-width: 800px) {

@@ -10,6 +10,11 @@
     box-sizing: border-box;
     min-width: 20.125rem;
     padding: 2.5rem;
+    transition: 1s;
+}
+
+.tecnologieItem:hover { 
+    scale: calc(1.1);
 }
 
 .tecnologieImg {

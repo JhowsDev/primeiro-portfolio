@@ -25,16 +25,18 @@
 .PresentationCardButton{
     background-color: var(--brand-color-1);
     font-size: var(--font-size-label);
-    cursor: grab;
+    cursor: pointer;
     width: 7.1875rem;
     height: 2.5rem;
     border-radius: var(--button-radius);
     color: var(--gray-50);
     margin-bottom: 3rem;
+    transition: 1s;
 }
 
 .PresentationCardButton:hover{
     background-color: var(--brand-color-2);
+    scale: calc(1.1);
 }
 
 @media (min-width: 800px) {

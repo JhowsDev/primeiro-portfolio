@@ -1,3 +1,4 @@
+import { projects } from "../../../src/data/projects"
 import { ProjectCard } from "./ProjectCard"
 import styles from "./style.module.css"
 
@@ -6,10 +7,7 @@ export const ProjectSection = () => {
         <section className={styles.projectsContainer}>
         <h2 className={styles.projectsTittle}>Projetos</h2>
         <ul className={styles.projectsList}>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            <ProjectCard projects ={projects}/>
         </ul>
       </section>
     )
